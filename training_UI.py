@@ -24,7 +24,7 @@ def show_training_UI(user_name, study_subject):
     # Integracja czatbota w pasku bocznym
     with col2:
         st.header("💬 Czatbot PITS")
-        st.success(f"Witaj {user_name}. Odpowiem na Twoje pytania na temat: {study_subject}")
+        st.success(f"Witaj, {user_name}. Odpowiem na Twoje pytania na temat: {study_subject}")
         #with st.spinner("Preparing the chatbot..."):
         chat_store = load_chat_store()
         container = st.container(height=600)
